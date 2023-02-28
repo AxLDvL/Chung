@@ -1,0 +1,25 @@
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #D6EEEE;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+input  {
+    max-width: 40px;
+}
