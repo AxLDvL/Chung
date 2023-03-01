@@ -1,15 +1,31 @@
+body{
+    background-image:url("./image.png") ;
+    font-family: 'Golos Text', sans-serif;
+}
+h1{
 
+    text-align: center;
+}
 .styled-table {
+
     border-collapse: collapse;
-    margin: 25px 0;
+    margin: 25px auto;
     font-size: 0.9em;
     font-family: sans-serif;
-    min-width: 400px;
+    min-width: 450px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color:rgba(255,255,255,1);
+    min-height: 150px;
 }
 
 tr {
     border-bottom: 1px solid #ddd;
+    margin: 15px 0;
+
+}
+td,th {
+    max-width: 40px;
+    text-align: center;
 }
 
 tr:hover {
@@ -24,5 +40,6 @@ tr:hover {
     color: green;
 }
 input  {
+margin: 0 10px;
     max-width: 40px;
 }
