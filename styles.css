@@ -1,7 +1,10 @@
 body{
     background-image:url("./image.png") ;
     font-family: 'Golos Text', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
 }
+
 h1{
 
     text-align: center;
@@ -9,7 +12,7 @@ h1{
 .styled-table {
 
     border-collapse: collapse;
-    margin: 25px auto;
+    margin: 100px auto;
     font-size: 0.9em;
     font-family: sans-serif;
     min-width: 450px;
