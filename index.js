@@ -22,7 +22,6 @@ sortiePouls.oninput = () => variation(entreePouls, sortiePouls,varPouls);
 const variation = (entree, sortie , e) => {
     if (entree.value && sortie.value ){
         let result =Math.round(((sortie.value - entree.value)/entree.value)*100 * 100) /100;
-        console.log(result);
         !isNaN(result) ? e.innerHTML = String(result) + "%": e.innerHTML = "erreur";
        Math.abs(result) <40? e.className = "green" : e.className = "red";
     }else e.innerHTML ="";
