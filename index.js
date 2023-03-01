@@ -21,7 +21,7 @@ sortiePouls.oninput = () => variation(entreePouls, sortiePouls,varPouls);
 
 const variation = (entree, sortie , e) => {
     if (entree.value && sortie.value){
-        let result =Math.round(((sortie.value - entree.value)/sortie.value)*100 * 100) /100;
+        let result =Math.round(((sortie.value - entree.value)/entree.value)*100 * 100) /100;
         e.innerHTML = String(result) + "%";
        Math.abs(result) <40? e.className = "green" : e.className = "red";
     }
