@@ -6,29 +6,36 @@ body{
 }
 
 h1{
-
+    color: #444444;
+    font-weight: bold;
     text-align: center;
+    font-size: 2em;
 }
 .styled-table {
 
+
     border-collapse: collapse;
-    margin: 100px auto;
-    font-size: 0.9em;
+    margin: 100px auto 50px auto;
+    font-size: 1.5em;
     font-family: sans-serif;
-    min-width: 450px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 80vw;
+    height: 30vw;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.20);
     background-color:rgba(255,255,255,1);
     min-height: 150px;
 }
 
 tr {
+
     border-bottom: 1px solid #ddd;
     margin: 15px 0;
 
 }
 td,th {
-    max-width: 40px;
+    /*max-width: 40px;*/
+    color: #444444;
     text-align: center;
+    padding: 20px;
 }
 
 tr:hover {
@@ -38,11 +45,33 @@ tr:hover {
 .red {
     color: red;
 }
-
+.orange {
+    color: orange;
+}
 .green {
     color: green;
 }
-input  {
-margin: 0 10px;
-    max-width: 40px;
+label input  {
+    color: #444444;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: max-content ;
+    /*max-width: 40px;*/
+}
+
+.button{
+    display: flex;
+    color: #444444;
+    align-self: center;
+
+    font-size: 1em;
+    height: max-content;
+    margin: 10px auto;
+    padding: 7px 20px;
+    background-color:rgba(255,255,255,1);
+    border-radius: 10px;
+    border: none ;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.20);
 }
